@@ -7,7 +7,7 @@ public class TestSQl {
 		String sql = "select column,column1 from table where occur_time >= to_date(date,'yyyy-mm-dd hh24:mi:mm')"
 				+ " and occur_time <= to_date(date,'yyyy-mm-dd hh24:mi:mm') and id in (.......)";
 		
-		//优化后
+		//优化之后
 		
 		StringBuffer sbSql  = new StringBuffer();
 		sbSql.append("select column,column1 from table where occur_time = to_date(date,'yyyy-mm-dd hh24:mi:mm') and id = 'id'"
