@@ -17,5 +17,6 @@ public class TestSQl {
 				+ "select column,column1 from table where occur_time = to_date(date,'yyyy-mm-dd hh24:mi:mm') and id = 'id'");
 		//..... 避免使用in来查询数据
 		
+		//test
 	}
 }
