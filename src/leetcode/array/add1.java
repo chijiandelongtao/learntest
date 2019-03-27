@@ -8,6 +8,7 @@ public class add1 {
 		int[] array = {1,2,3,9};
 		int[] plusOne = plusOne(array);
 		System.out.println(222);
+		System.out.println(1111);
 		for (int i : plusOne) {
 			System.out.println(i);
 		}
