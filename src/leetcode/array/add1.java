@@ -7,7 +7,7 @@ public class add1 {
 	public static void main(String[] args) {
 		int[] array = {1,2,3,9};
 		int[] plusOne = plusOne(array);
-		
+		System.out.println(222);
 		for (int i : plusOne) {
 			System.out.println(i);
 		}
